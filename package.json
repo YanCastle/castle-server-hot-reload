@@ -1,0 +1,22 @@
+{
+  "name": "castle-server-hot-reload",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*.js",
+    "dist/**/*.d.ts",
+    "READMD.md",
+    "yarn.lock"
+  ],
+  "repository": "https://github.com/YanCastle/castle-server-hot-reload",
+  "author": "CastleMY <490523604@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chokidar": "^2.0.4"
+  },
+  "devDependencies": {
+    "@types/chokidar": "^1.7.5",
+    "@types/node": "^10.12.18"
+  }
+}
